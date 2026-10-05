@@ -1,0 +1,7 @@
+__pycache__/
+*.egg-info/
+work/
+data/
+results/
+*.pt
+*.pkl

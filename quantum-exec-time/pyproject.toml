@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qetime"
+version = "1.0.0"
+description = "Graph-transformer estimation of quantum circuit execution time (Ma & Li, TOSEM 2025)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "torch>=2.0",
+    "torch_geometric>=2.4",
+    "qiskit>=1.2",
+    "qiskit-aer>=0.15",
+    "qiskit-ibm-runtime>=0.30",
+]
+
+[project.optional-dependencies]
+mqt = ["mqt.bench>=2.0"]
+analysis = ["shap>=0.45", "matplotlib"]
+test = ["pytest"]
+
+[project.scripts]
+qetime = "qetime.cli:main"
+
+[tool.setuptools]
+packages = ["qetime"]

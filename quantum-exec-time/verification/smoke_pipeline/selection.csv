@@ -1,0 +1,13 @@
+order,circuit,backend,family
+0,graphstate_indep_qiskit_4,osaka,graphstate
+1,wstate_indep_qiskit_8,osaka,wstate
+2,qpeexact_indep_qiskit_8,kyoto,qpeexact
+3,dj_indep_qiskit_6,osaka,dj
+4,dj_indep_qiskit_3,kyoto,dj
+5,graphstate_indep_qiskit_8,kyoto,graphstate
+6,ghz_indep_qiskit_6,kyoto,ghz
+7,qpeexact_indep_qiskit_3,kyoto,qpeexact
+8,dj_indep_qiskit_8,kyoto,dj
+9,qpeexact_indep_qiskit_6,osaka,qpeexact
+10,qft_indep_qiskit_3,kyoto,qft
+11,wstate_indep_qiskit_4,osaka,wstate

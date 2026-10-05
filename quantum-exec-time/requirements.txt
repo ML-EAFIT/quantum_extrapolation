@@ -1,0 +1,12 @@
+numpy
+scipy
+pandas
+torch>=2.0
+torch_geometric>=2.4
+qiskit>=1.2
+qiskit-aer>=0.15
+qiskit-ibm-runtime>=0.30
+mqt.bench>=2.0
+shap>=0.45
+matplotlib
+pytest

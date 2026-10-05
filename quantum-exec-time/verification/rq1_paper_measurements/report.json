@@ -1,0 +1,22 @@
+{
+  "backend_comparisons": [
+    {
+      "pair": "sherbrooke vs washington",
+      "n_common": 1510,
+      "shapiro_p_sherbrooke": 6.564040747909045e-59,
+      "shapiro_p_washington": 1.3011652023021542e-63,
+      "wilcoxon_p": 1.1789343948262329e-12,
+      "spearman_rho": 0.9138034011646218,
+      "spearman_p": 0.0
+    },
+    {
+      "pair": "osaka vs kyoto",
+      "n_common": 148,
+      "shapiro_p_osaka": 1.0139780302197479e-05,
+      "shapiro_p_kyoto": 5.176136270428115e-05,
+      "wilcoxon_p": 0.7089379530677999,
+      "spearman_rho": 0.8795981298378232,
+      "spearman_p": 5.845919000365657e-49
+    }
+  ]
+}
